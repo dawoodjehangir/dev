@@ -1,0 +1,5 @@
+django==3.2.13
+djangorestframework
+pyyaml
+requests
+django-cors-headers
