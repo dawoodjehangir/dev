@@ -20,3 +20,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+## default django port is 8000
+## python manage.py runserver 8000
