@@ -20,7 +20,7 @@ def api_home(request, *args, **kwargs):
 
     print(data)
 
-    data['params'] = request.GET
+    data['params'] = request.GET #gives all query parameters
     data['headers'] = dict(request.headers)
     data['content_type'] = request.content_type
 
